@@ -1,0 +1,295 @@
+/* Created by Tivotal */
+
+body {
+  background: #000;
+}
+
+.flag {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-reflect: below 15px
+    linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+.text {
+  color: #fff;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  white-space: nowrap;
+  font-weight: 600;
+  font-family: sans-serif;
+  background: linear-gradient(orange, white, green);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flag span {
+  height: 300px;
+  width: 10px;
+  background: url(flag.png);
+  margin-left: -0.9px;
+  animation: anim 1s infinite;
+}
+
+@keyframes anim {
+  50% {
+    margin-top: 10px;
+  }
+}
+
+.flag span:nth-child(1) {
+  background-position: -10px 0;
+  animation-delay: 0.1s;
+}
+
+.flag span:nth-child(2) {
+  background-position: -20px 0;
+  animation-delay: 0.2s;
+}
+
+.flag span:nth-child(3) {
+  background-position: -30px 0;
+  animation-delay: 0.3s;
+}
+
+.flag span:nth-child(4) {
+  background-position: -40px 0;
+  animation-delay: 0.4s;
+}
+
+.flag span:nth-child(5) {
+  background-position: -50px 0;
+  animation-delay: 0.5s;
+}
+
+.flag span:nth-child(6) {
+  background-position: -60px 0;
+  animation-delay: 0.6s;
+}
+
+.flag span:nth-child(7) {
+  background-position: -70px 0;
+  animation-delay: 0.7s;
+}
+
+.flag span:nth-child(8) {
+  background-position: -80px 0;
+  animation-delay: 0.8s;
+}
+
+.flag span:nth-child(9) {
+  background-position: -90px 0;
+  animation-delay: 0.9s;
+}
+
+.flag span:nth-child(10) {
+  background-position: -100px 0;
+  animation-delay: 1s;
+}
+
+.flag span:nth-child(11) {
+  background-position: -110px 0;
+  animation-delay: 01.1s;
+}
+
+.flag span:nth-child(12) {
+  background-position: -120px 0;
+  animation-delay: 01.2s;
+}
+
+.flag span:nth-child(13) {
+  background-position: -130px 0;
+  animation-delay: 01.3s;
+}
+
+.flag span:nth-child(14) {
+  background-position: -140px 0;
+  animation-delay: 01.4s;
+}
+
+.flag span:nth-child(15) {
+  background-position: -150px 0;
+  animation-delay: 01.5s;
+}
+
+.flag span:nth-child(16) {
+  background-position: -160px 0;
+  animation-delay: 01.6s;
+}
+
+.flag span:nth-child(17) {
+  background-position: -170px 0;
+  animation-delay: 01.7s;
+}
+
+.flag span:nth-child(18) {
+  background-position: -180px 0;
+  animation-delay: 01.8s;
+}
+
+.flag span:nth-child(19) {
+  background-position: -190px 0;
+  animation-delay: 01.9s;
+}
+
+.flag span:nth-child(20) {
+  background-position: -200px 0;
+  animation-delay: 2s;
+}
+
+.flag span:nth-child(21) {
+  background-position: -210px 0;
+  animation-delay: 02.1s;
+}
+
+.flag span:nth-child(22) {
+  background-position: -220px 0;
+  animation-delay: 02.2s;
+}
+
+.flag span:nth-child(23) {
+  background-position: -230px 0;
+  animation-delay: 02.3s;
+}
+
+.flag span:nth-child(24) {
+  background-position: -240px 0;
+  animation-delay: 02.4s;
+}
+
+.flag span:nth-child(25) {
+  background-position: -250px 0;
+  animation-delay: 02.5s;
+}
+
+.flag span:nth-child(26) {
+  background-position: -260px 0;
+  animation-delay: 02.6s;
+}
+
+.flag span:nth-child(27) {
+  background-position: -270px 0;
+  animation-delay: 02.7s;
+}
+
+.flag span:nth-child(28) {
+  background-position: -280px 0;
+  animation-delay: 02.8s;
+}
+
+.flag span:nth-child(29) {
+  background-position: -290px 0;
+  animation-delay: 02.9s;
+}
+
+.flag span:nth-child(30) {
+  background-position: -300px 0;
+  animation-delay: 3s;
+}
+
+.flag span:nth-child(31) {
+  background-position: -310px 0;
+  animation-delay: 03.1s;
+}
+
+.flag span:nth-child(32) {
+  background-position: -320px 0;
+  animation-delay: 03.2s;
+}
+
+.flag span:nth-child(33) {
+  background-position: -330px 0;
+  animation-delay: 03.3s;
+}
+
+.flag span:nth-child(34) {
+  background-position: -340px 0;
+  animation-delay: 03.4s;
+}
+
+.flag span:nth-child(35) {
+  background-position: -350px 0;
+  animation-delay: 03.5s;
+}
+
+.flag span:nth-child(36) {
+  background-position: -360px 0;
+  animation-delay: 03.6s;
+}
+
+.flag span:nth-child(37) {
+  background-position: -370px 0;
+  animation-delay: 03.7s;
+}
+
+.flag span:nth-child(38) {
+  background-position: -380px 0;
+  animation-delay: 03.8s;
+}
+
+.flag span:nth-child(39) {
+  background-position: -390px 0;
+  animation-delay: 03.9s;
+}
+
+.flag span:nth-child(40) {
+  background-position: -400px 0;
+  animation-delay: 4s;
+}
+
+.flag span:nth-child(41) {
+  background-position: -410px 0;
+  animation-delay: 04.1s;
+}
+
+.flag span:nth-child(42) {
+  background-position: -420px 0;
+  animation-delay: 04.2s;
+}
+
+.flag span:nth-child(43) {
+  background-position: -430px 0;
+  animation-delay: 04.3s;
+}
+
+.flag span:nth-child(44) {
+  background-position: -440px 0;
+  animation-delay: 04.4s;
+}
+
+.flag span:nth-child(45) {
+  background-position: -450px 0;
+  animation-delay: 04.5s;
+}
+
+.flag span:nth-child(46) {
+  background-position: -460px 0;
+  animation-delay: 04.6s;
+}
+
+.flag span:nth-child(47) {
+  background-position: -470px 0;
+  animation-delay: 04.7s;
+}
+
+.flag span:nth-child(48) {
+  background-position: -480px 0;
+  animation-delay: 04.8s;
+}
+
+.flag span:nth-child(49) {
+  background-position: -490px 0;
+  animation-delay: 04.9s;
+}
+
+.flag span:nth-child(50) {
+  background-position: -500px 0;
+  animation-delay: 5s;
+}
